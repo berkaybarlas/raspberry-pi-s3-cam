@@ -1,7 +1,7 @@
 # Raspberry Pi Camera Amazon S3 Uploader
 
 ## Requirements
-- Raspberry Pi + Camera + Network Adapter
+- Raspberry Pi + Camera + Internet Connection
 
 ## Initial Setup
 - Ensure Raspberry Pi Camera has been enabled:
@@ -14,8 +14,8 @@
   ```
 
 - Install `tinys3` library: `pip install tinys3`
-- Install `pyyaml` library: `pip install pyyaml`
-- Update `config.yml` and provide S3 credentials as well as specify a bucket name
+
+- Change Aws Properties with yours
 
 ## Running 
-`python s3cam.py`
+`python s3Image.py`
